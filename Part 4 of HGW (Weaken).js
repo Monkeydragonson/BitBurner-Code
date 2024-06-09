@@ -11,7 +11,7 @@ export async function main(ns) {
       await ns.weaken(target);
     }
     else {
-      await ns.sleep(1000)
+      await ns.sleep(1000);
   // Otherwise sleep
     }
   }
