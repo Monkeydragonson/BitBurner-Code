@@ -5,11 +5,8 @@ export async function main(ns) {
 
   const moneyThresh = ns.getServerMaxMoney(target);
 
-While(true); {
   if (ns.getServerMoneyAvailable(target) < moneyThresh) {
    await ns.grow(target) }
-  else { 
-    await ns.sleep(1000); 
    }
  }
 }
