@@ -5,10 +5,7 @@ export async function main(ns) {
 
   const moneyThresh = ns.getServerMaxMoney(target);
 
-  while (true) {
-    if (ns.getServerMoneyAvailable(target) < moneyThresh) {
-      await ns.sleep(1000);
-    } else {
+    if (ns.getServerMoneyAvailable(target) => moneyThresh) {
       await ns.hack(target);
 
     }
