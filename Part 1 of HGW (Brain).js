@@ -4,3 +4,5 @@
 
 //hackanalyze returns the percentage that will be hacked with one thread at the current security level.
 //try this  growthAnalyze(servers[i],1/(1-hackAnalyze(servers[i]))) (thanks u/creeper_the_cat on reddit)
+
+const target"    ";
